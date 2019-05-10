@@ -4,18 +4,22 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+
+  --mainCharcoal: #373737;
+  --mainGold: #c0b283;
+  --mainPaper: #f4f4f4;
+  --mainSilk: #dcd0c0;
 }
 
 body {
-  font-family: 'Oswald', sans-serif !important;
-  background: var(--mainWhite) !important;
-  color: var(--mainDark) !important;
+  font-family: 'Raleway', sans-serif !important;
+  background: var(--mainPaper) !important;
+  color: var(--mainCharcoal) !important;
 }
 
 .text-title {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 0.3rem;
-  text-transform: uppercase;
 }
 
 .text-blue {
@@ -30,18 +34,26 @@ body {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color: var(--mainDark);
+  color: var(--mainCharcoal);
   border-radius: 0 !important;
-  border: 0.1rem solid var(--mainDark) !important;
+  border: 0.1rem solid var(--mainCharcoal) !important;
 }
 
 .btn-black:hover {
-  background: var(--mainDark) !important;
-  color: var(--mainWhite) !important;
+  background: var(--mainCharcoal) !important;
+  color: var(--mainPaper) !important;
 }
 
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--mainYellow);
+  color: var(--mainGold);
+}
+
+.fa-spa {
+  color: var(--mainGold)
+}
+
+.nav-link {
+  color: var(--mainGold) !important;
 }
